@@ -48,3 +48,15 @@ h3{
     -ms-transition: all cubic-bezier(0.19, 1, 0.22, 1);
     -o-transition: all cubic-bezier(0.19, 1, 0.22, 1);
 }
+
+button{
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #ff6358;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+    cursor: pointer;
+}

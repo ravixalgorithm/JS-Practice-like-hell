@@ -21,25 +21,25 @@ form.addEventListener('submit', function(event) {
     // }
 
     // method 2
-    // inps.forEach(function(inp){
-    //     if(inp.value === ''){
-    //         h4.textContent = 'Error, some fields are blank';
-    //         h4.style.color ='red';
-    //     }
-    //     else {
-    //             h4.textContent = 'Form submitted successfully';
-    //             h4.style.color = 'green';
-    //             inp.value = '';
-    //     }
-    // })
-
-    // method 3
-    for(var i = 0; i < inps.length; i++){
-        if(inps[i].value.trim() === ''){
+    inps.forEach(function(inp){
+        if(inp.value === ''){
             h4.textContent = 'Error, some fields are blank';
             h4.style.color ='red';
-            break;
         }
+        else {
+                h4.textContent = 'Form submitted successfully';
+                h4.style.color = 'green';
+                inp.value = '';
+        }
+    })
 
-    }
+    // method 3
+    // for(var i = 0; i < inps.length; i++){
+    //     if(inps[i].value.trim() === ''){
+    //         h4.textContent = 'Error, some fields are blank';
+    //         h4.style.color ='red';
+    //         break;
+    //     }
+
+    // }
 });
