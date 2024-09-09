@@ -1,0 +1,24 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    padding: 30px;
+}
+
+textarea{
+    width: 600px;
+    height: 130px;
+    font-size: 18px;
+    padding: 5px;
+    resize: none;
+    border: 1px solid #dadada;
+    outline-color: royalblue;
+}
